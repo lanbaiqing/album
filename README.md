@@ -36,6 +36,7 @@ allprojects {
 			maven { url 'https://jitpack.io' }
 		}
 }
+
 2.添加依赖关系
 dependencies {
 		implementation 'com.github.lanbaiqing:album:1.0.4'
