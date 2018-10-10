@@ -23,3 +23,20 @@ intent.putStringArrayListExtra("list", 你所需要预览的图片列表);
 
 startActivity(intent);
 
+
+
+########################################
+
+将JitPack存储库添加到构建文件中
+
+1.在根构建中添加它。存储库末尾的gradle
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+}
+2.添加依赖关系
+dependencies {
+		implementation 'com.github.lanbaiqing:album:1.0.4'
+}
