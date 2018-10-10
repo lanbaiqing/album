@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="App_20180712_Theme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+    <style name="radio_20180712_style">
+        <item name="android:button">@drawable/style_20180712_radio</item>
+    </style>
+    <style name="checkbox_20180712_style">
+        <item name="android:button">@drawable/style_20180712_checkbox</item>
+    </style>
+    <style name="dialog_20180712_style">
+        <!--窗口无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--窗口边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--窗口是否悬浮-->
+        <item name="android:windowIsFloating">true</item>
+        <!--窗口是否透明-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--窗口背景-->
+        <item name="android:windowBackground">@color/transparent20180712</item>
+        <!--窗口内容覆盖-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--窗口动画样式-->
+        <item name="android:windowAnimationStyle">@null</item>
+        <!--背景模糊启用-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--背景模糊数量-->
+        <item name="android:backgroundDimAmount">0.2</item>
+
+    </style>
+    <style name="dialog_20180712_anim_from_bottom_to_top">
+        <item name="android:windowEnterAnimation">@anim/anim_20180712_from_bottom_to_top</item>
+        <item name="android:windowExitAnimation">@anim/anim_20180712_from_top_to_bottom</item>
+    </style>
+</resources>
