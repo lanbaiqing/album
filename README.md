@@ -18,6 +18,8 @@ openAlbums方法直接打开相册选择图片（无对话框）
 AlbumPreview 相册预览使用【本地，网络图片都可以】
 
 Intent intent = new Intent(this, AlbumPreview.class);
+
 intent.putStringArrayListExtra("list", 你所需要预览的图片列表);
+
 startActivity(intent);
 
