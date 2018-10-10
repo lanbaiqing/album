@@ -176,7 +176,7 @@ public class AlbumPreview extends AppCompatActivity implements View.OnClickListe
                 }
                 tv_total.setText(String.valueOf(sList.size()));
                 viewPager.setAdapter((adapter = new PagerAdapter()));
-
+                viewPager.setCurrentItem(getIntent().getIntExtra("position", 0));
             }
         }
     }
