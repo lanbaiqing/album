@@ -149,7 +149,8 @@ public class AlbumBrowser extends AppCompatActivity implements View.OnClickListe
             }
         });
         max = getIntent().getIntExtra("max", 1);
-        sList = getIntent().getStringArrayListExtra("list");
+        if (getIntent().hasExtra("list"))
+            sList = getIntent().getStringArrayListExtra("list");
         refresh();
     }
     @Override

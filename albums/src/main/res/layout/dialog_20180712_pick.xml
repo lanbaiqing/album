@@ -25,7 +25,7 @@
         android:id="@+id/btn_albums"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:text="从相机选择"
+        android:text="从相册选择"
         android:textSize="14sp"
         android:textColor="#0085ff"
         android:gravity="center"
